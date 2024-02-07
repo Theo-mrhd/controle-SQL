@@ -45,3 +45,9 @@ mysql -h localhost -u root -p < requetes.sql
 | nom_ligne    | `VARCHAR(50)`                                                                   |
 | horaire      | `TIME`                                                                          |
 | jour         | `ENUM('Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche')` |
+
+### Modèle relationnel de données
+
+| MCD                                                                                                            | MLD                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| ![MCD drawio](https://github.com/Theo-mrhd/controle-SQL/assets/127532439/5920f5ff-bccd-4399-81d5-becac14e5091) | ![MLD drawio](https://github.com/Theo-mrhd/controle-SQL/assets/127532439/2c901267-bb5a-474e-89b0-dc516dce4b6c) |
